@@ -24,11 +24,11 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={16} />
-                <span>+91 7385865</span>
+                <span>+91 7073882865</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={16} />
-                <span>jaideepdev@gmail.com</span>
+                <span>jaideeprda@gmail.com</span>
               </div>
             </div>
           </div>
