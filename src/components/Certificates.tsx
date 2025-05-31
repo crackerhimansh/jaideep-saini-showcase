@@ -8,13 +8,15 @@ const Certificates = () => {
       title: "Certified Python Developer",
       issuer: "GRRAS Solutions Pvt. Ltd.",
       description: "Comprehensive certification covering advanced Python programming, data science concepts, and practical application development.",
-      skills: ["Python Programming", "Data Science", "OOP", "Database Integration"]
+      skills: ["Python Programming", "Data Science", "OOP", "Database Integration"],
+      githubLink: "https://github.com/Jaideepsaini21"
     },
     {
       title: "Certified Data Science",
       issuer: "GRRAS Solutions Pvt. Ltd.",
       description: "Specialized certification in data science methodologies, statistical analysis, and machine learning fundamentals.",
-      skills: ["Data Analysis", "Statistical Methods", "Machine Learning", "Data Visualization"]
+      skills: ["Data Analysis", "Statistical Methods", "Machine Learning", "Data Visualization"],
+      githubLink: "https://github.com/Jaideepsaini21"
     }
   ];
 
@@ -55,10 +57,15 @@ const Certificates = () => {
                 ))}
               </div>
               
-              <button className="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors duration-200">
+              <a
+                href={cert.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors duration-200"
+              >
                 <ExternalLink size={16} />
-                <span className="text-sm">View Certificate</span>
-              </button>
+                <span className="text-sm">View on GitHub</span>
+              </a>
             </div>
           ))}
         </div>
