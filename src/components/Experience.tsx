@@ -17,22 +17,9 @@ const Experience = () => {
       ]
     },
     {
-      title: "Backend Developer (Python Django)",
-      company: "Aladinn Digital Solutions (ALDS)",
-      location: "Remote",
-      period: "07/2024 - 01/2025",
-      description: [
-        "Developed and maintained backend applications using Python and Django framework",
-        "Implemented RESTful APIs for various web applications",
-        "Worked with database design and optimization",
-        "Collaborated with frontend developers to integrate user-facing elements with server-side logic",
-        "Participated in code reviews and maintained high coding standards"
-      ]
-    },
-    {
       title: "Python Developer",
       company: "GIP (Global IT Providers) Technologies Pvt. Ltd.",
-      location: "Remote",
+      location: "Jaipur",
       period: "12/2023 - 07/2024",
       description: [
         "Developed Python applications for various client projects",
@@ -40,6 +27,19 @@ const Experience = () => {
         "Worked on automation scripts to improve operational efficiency",
         "Collaborated with cross-functional teams to deliver high-quality software solutions",
         "Gained experience in project management and client communication"
+      ]
+    },
+    {
+      title: "Backend Developer (Python Django)",
+      company: "Aladinn Digital Solutions (ALDS)",
+      location: "Jaipur",
+      period: "07/2024 - 01/2025",
+      description: [
+        "Developed and maintained backend applications using Python and Django framework",
+        "Implemented RESTful APIs for various web applications",
+        "Worked with database design and optimization",
+        "Collaborated with frontend developers to integrate user-facing elements with server-side logic",
+        "Participated in code reviews and maintained high coding standards"
       ]
     }
   ];
